@@ -1,0 +1,217 @@
+﻿
+ /**
+  * Aniversariantes
+  * @author Willian Fellipe Laynes  (Analista-Desenvolvedor)
+  * @copyright Copyright (c) 2014 - sisDOC.com.br
+  * @access public
+  * @version v.0.14.14
+  * @package Classe
+  * @subpackage -
+ */
+ 
+#corpo{
+height:auto;
+width:500px;
+background:#FFF;
+position:absolute;
+float:inherit;	
+}
+
+/* Icone da barra de formulario de consulta - cadastro */
+#consult{
+	background:url(imagens/consult.png);
+	background-repeat:no-repeat;
+	width:380px;
+	height:71px;
+	left:20px;
+	top:20px;
+	z-index:4;
+	position:relative;
+}
+
+#head{
+	height:100px;
+	width:500px;
+	background:#FFF;
+	position:relative;
+}	
+
+.txtconsult{
+font-family:"Roboto Condensed", "Roboto Thin";
+font-size:12px;
+padding-left:100px;
+text-align:left;
+}
+
+.txtnomecons{
+font-family:"Roboto Condensed", "Roboto Thin";
+font-size:24px;
+padding-left:100px;
+text-align:left;	
+}
+
+
+/* Menu de navegação do cabelhado de cadastro de cliente */
+.textmenu_new {
+	width:460px;
+	height:50px;
+	float:left;	
+	font-family:"Roboto Thin";
+	color:#111;
+	font-size:36px;
+}
+
+/* Cores padrão do Degrade */
+.bg1 { background-color:rgb(250,250,250); }
+.bg1:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg2 { background-color:rgb(240,240,250); }
+.bg2:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg3 { background-color:rgb(230,230,250); }
+.bg3:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg4 { background-color:rgb(220,220,250); }
+.bg4:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg5 { background-color:rgb(210,210,250); }
+.bg5:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg6 { background-color:rgb(200,200,250); }
+.bg6:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg7 { background-color:rgb(190,190,250); }
+.bg7:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg8 { background-color:rgb(180,180,250); }
+.bg8:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg9 { background-color:rgb(170,170,250); }
+.bg9:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg10 { background-color:rgb(160,160,250); }
+.bg10:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+.bg10 { background-color:rgb(150,150,250); }
+.bg10:hover { background-color:rgb(10,10,10); color: #EEE; }
+
+
+
+.textmenu{
+font-family:"Roboto Thin";
+font-size:36px;
+color: #EEE;
+text-align:left;
+padding:20px;
+background-color:rgb(10,10,10)
+}
+/*
+- Cabeçalho dos relatorio
+*/
+h1{
+font-family:"Roboto Thin";
+color:#333;
+font-size:36px;
+}
+
+h2{
+font-family:"Roboto Thin";
+color:#666;
+font-size:24px;
+}
+
+/*
+- Nome das consutoras
+- Nome das instituições / empresas no pedido
+*/
+h3{
+font-family:"Roboto Condensed", "Roboto Thin";
+color:#666;
+font-size:18px;	
+}
+
+h4{
+font-family:"Roboto Thin";
+color:#666;
+font-size:16px;
+}
+
+h5{
+font-family:"Roboto Thin";
+color:#999;
+font-size:12px;
+}
+
+h6{
+font-family:"Roboto Thin";
+color:#F00;
+font-size:10px;
+}
+
+h7{
+font-family:"Roboto Thin";
+color:#F00;
+font-size:36px;
+}
+
+#btn{
+height:20px;
+width:40px;
+position:relative;
+float:right;
+top:10px;
+right:10px;	
+}
+
+.btn_enviar {
+font-size:18px;
+font-family:"Roboto Condensed", "Roboto Thin";
+font-weight:normal;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+border:1px solid #3866a3;
+padding:8px 18px;
+text-decoration:none;
+background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+background:-ms-linear-gradient( top, #63b8ee 5%, #468ccf 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #63b8ee), color-stop(100%, #468ccf) );
+background-color:#63b8ee;
+color:#14396a;
+display:inline-block;
+text-shadow:1px 1px 0px #7cacde;
+-webkit-box-shadow:inset 1px 1px 0px 0px #bee2f9;
+-moz-box-shadow:inset 1px 1px 0px 0px #bee2f9;
+box-shadow:inset 1px 1px 0px 0px #bee2f9;
+}
+
+.btn_enviar:hover {
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	background:-ms-linear-gradient( top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #468ccf), color-stop(100%, #63b8ee) );
+	background-color:#468ccf;
+	}
+
+.btn_enviar:active {
+position:relative;
+top:1px;
+}
+
+.form_nome{
+font-family:"Roboto Thin";
+font-size:14px;
+text-align:right;
+color:#333;
+}
+
+.form_imput{
+font-family:"Roboto Thin";
+font-size:12px;
+text-align:left;
+color:#333;	
+}
+
+
+
